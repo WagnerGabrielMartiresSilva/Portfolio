@@ -93,7 +93,7 @@ text-decoration: none;
 }
 
 section#inicio{
-    background: url("./img/Meu\ projeto.jpg");
+    background: url("./img/pc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -104,6 +104,7 @@ section#inicio{
 }
 
 section#inicio h2{
+    
     font-size: 6rem;
 }
 
@@ -122,4 +123,58 @@ section#inicio div#arraste{
 section#inicio div#arraste a{
    text-decoration: none;
    color: #fff;
+}
+
+i.menu-mobile{
+    position: fixed;
+    color: #fff;
+    background-color: #050108;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 10;
+    width: 45px;
+    height: 45px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-nav-activate{
+    overflow: hidden;
+}
+
+.menu-nav-activate #header{
+    left: 0;
+}
+
+@media only screen and (max-width: 1024px){
+    #header{
+        left: -300px;
+
+    }
+
+    i.menu-mobile{
+        display: flex;
+    }
+    
+    section#inicio h2{
+        margin-left: 5rem;
+        font-size: 3.5rem;
+        margin-right: 0;
+
+    }
+
+    section#inicio span#subtitle{
+        margin-right: 0;
+        font-size: 1rem;
+    }
+
+    #main{
+        margin-left: 0;
+    }
+
 }
