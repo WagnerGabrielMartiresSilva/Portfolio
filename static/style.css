@@ -151,30 +151,39 @@ i.menu-mobile{
     left: 0;
 }
 
-@media only screen and (max-width: 1024px){
-    #header{
-        left: -300px;
-
+@media (max-width: 1024px) {
+    #header {
+      left: -300px;
     }
-
     i.menu-mobile{
-        display: flex;
+      display: flex;
     }
-    
     section#inicio h2{
-        margin-left: 5rem;
-        font-size: 3.5rem;
-        margin-right: 0;
-
+    margin-left: 5rem;
+      font-size: 3.5rem ;
     }
-
     section#inicio span#subtitle{
-        margin-right: 0;
-        font-size: 1rem;
+      margin-right: 0;
+      font-size: 1rem;
     }
-
     #main{
         margin-left: 0;
     }
-
-}
+  }
+  
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #00000050;
+    background-color: #fff ;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #252c90;
+  }
+  .section-bg{
+      background-color: #eff5ff;
+  }
