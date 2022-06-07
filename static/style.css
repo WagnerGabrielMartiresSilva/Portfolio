@@ -13,7 +13,7 @@ html,body{
     bottom: 0;
     background: #021124;
     overflow-y: auto;
-    width: 300px;
+    width: 249px;
     transition: all ease-in-out 0.5s;
     padding: 0 15px;
     z-index: 9997;
@@ -89,11 +89,11 @@ text-decoration: none;
 }
 
 #main{
-    margin-left: 300px;
+    margin-left: 248px;
 }
 
 section#inicio{
-    background: url("./img/pc.jpg");
+    background: url("./img/bannerPortifolio.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -230,3 +230,15 @@ i.menu-mobile{
       background: #fff;
       border-radius: 50%;
   }
+
+  .carousel-control-prev{
+      margin-left: -0.1rem;
+  }
+
+  .carousel-control-next{
+      margin-right: -0.1rem;
+  }
+  .carousel-indicators{
+      margin-bottom: -30px;
+  }
+  
